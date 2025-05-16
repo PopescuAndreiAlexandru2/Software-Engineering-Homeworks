@@ -1,0 +1,37 @@
+2. Ce este UML și pentru ce este utilizat?
+
+Raspuns:
+UML este un limbaj de modelare generalizat standardizat in domeniul ingineriei software, si este
+folosit pentru a modela si proiecta sisteme software. Ofera diagrame pentru a reprezenta structurile,
+comportamentul si interactiunile intr-un sistem software.
+
+3. Ce sunt modelele și care este utilitatea lor?
+
+Raspuns:
+Modelele sunt reprezentari abstracte ale unui sistem software, si sunt utilizate pentru a intelege mai bine arhitectura sistemului.
+
+5. Ce tipuri de diagrame sunt prezentate în [1] – Capitolul 2? Care sunt asemănarile și
+deosebirile?
+
+Raspuns:
+In capitolul 2 sunt prezentate doua tipuri de diagrame: Diagrame de structura, si diagrame de comportament.
+Diagramele de comportament se concentreaza pe fluxul de control si interactiunile dintre obiecte, iar
+diagramele de structura descriu componentele si relatiile dintre ele
+
+6. Caracterizați succint fiecare diagramele din [1] – Capitolul 2 (cele 5 menționate mai
+sus)
+
+Diagrama de clasa: Arata structura sistemului prin clase, atribute, metode si relatiile dintre clase
+
+Diagrama de cazuri de utilizare: Arata interactiunea utilizatorilor cu sistemul si functionalitatile oferite de acesta.
+                                 De exemplu, daca avem functionalitatile "inrolare curs" si "predare curs", 
+                                 un student, ca si actor, poate sa se inroleze la curs, dar nu poate sa-l predea 
+                                 ( e o functionalitate pentru profesor )
+
+Diagrama de activitate: Modeleaza fluxul si procesele unui sistem printr-o succesiune de activitati
+
+diagrama de secvente: Reprezinta interactiunea dintre obiecte in ordinea in care aceste interactiuni au loc
+
+Diagrama masinii de stare: Arata schimbarile de stare ale unui obiect, in functie de evenimentele care apar pe parcurs
+                           Exemplu: Cand ne delogam, de la starea de "logged in", vom fi transferati la starea de "logged out"
+                                    si va trebui sa ne logam din nou

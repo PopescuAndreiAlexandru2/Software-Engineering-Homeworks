@@ -1,0 +1,7 @@
+Un student se poate inscrie de mai multe ori, dar fiecare inscriere este asociata cu un singur student
+
+Seminariile pot avea mai multi studenti inscrisi, iar studentii pot fi inscrisi la mai multe seminarii
+
+Un profesor poate preda la mai multe seminarii, dar un seminar poate sa nu aiba profesor
+
+Studentii pot fi pe o lista de asteptare pentru seminarii

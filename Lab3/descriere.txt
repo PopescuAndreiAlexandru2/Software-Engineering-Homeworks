@@ -1,0 +1,44 @@
+Nume: Imprumut carte
+
+Descriere: 
+- Imprumuta o carte catre un client al bibliotecii sau extinde imprumutul
+
+Preconditii:
+- Clientul trebuie sa fie membru al bilbiotecii ( autentificat )
+
+Postconditii:
+- Carte sa fie valabila
+- Limita sa nu fie depasita de client
+- Clientul a ales un tip de imprumut
+- In cazul extinderii, trebuie verificat daca este posibil ( de exemplu, daca cartea n-a fost rezervata de altcineva dupa imprumutul initial,
+                                                             si verificare daca userul n-a imprumutat cartea respectiva de prea multe ori )
+
+Situatii de eroare:
+- Cartea nu este valabila
+- Limita a fost depasita
+- Nu s-a ales tipul de imprumut
+- Cererea de extindere nu poate fi realizata
+
+Starea sistemului in caz de eroare:
+- Clientului nu ii este imprumutata nicio carte
+
+Actori:
+- Client
+
+Declansator
+- Clientul imprumuta o carte
+
+Proces standard:
+1. Verificare autentificare
+2. Cerere imprumut carte (t.lung sau scurt)
+3. Verificare valabilitate carte
+4. Verificare depasire limita
+5. Confirmare imprumut carte
+6. Extindere imprumut
+7. Confirmare extindere imprumut
+
+Proces alternativ:
+1' Autentificare esuata
+3' Cartea nu este valabila
+4' Limita imprumut depasita
+6' Extinderea nu poate fi realizata

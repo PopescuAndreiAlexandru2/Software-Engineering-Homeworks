@@ -1,0 +1,21 @@
+2)
+
+Administratorul creaza un cont
+Administratorul poate alege ce tip de cont poate crea
+Se acceseaza baza de date
+Se verifica daca credentialele se potrivesc
+
+4)
+
+1 - Actorii sunt: Student, student taxa, student buget, profesor, secretara, user, admin
+
+2 - Da, un exemplu ar fi actorul general student, iar actorii specializati sunt student taxa si student buget. 
+    Intre acesti actori trebuie sa exista o relatie de generalizare
+
+3 - Cazurile de utilizare sunt: login, distribuire rapoarte, inregistrare note, actualizare note, salvare note pe disc,
+                                vizualizare note, generare raport note
+
+4 - Da, cazul de utilizare "salvare note pe disc" este folosit intotdeauna de cazurile de utilizare "inregistrare note" si "actualizare note"
+    Intre ele exista relatia "include"
+
+5 - Nu, in diagrama mea nu exista

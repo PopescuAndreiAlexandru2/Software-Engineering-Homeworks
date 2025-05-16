@@ -1,0 +1,3 @@
+3) Da. Un exemplu ar fi clasele "Student" si "StudentTaxa". StudentTaxa este conceptul specializare, iar Student este conceptul de generalizare. Relatia dintre concepte este de mostenire
+
+4) Da, un exemplu ar fi conceptele "Student" si "Catalog note". Este o relatie de agregare, un catalog are mai multi studenti.

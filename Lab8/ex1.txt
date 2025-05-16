@@ -1,0 +1,57 @@
+Caz de utilizare: Initiere inchiriere
+Detaliile UC extinse
+
+1. INTRODUCE NUMAR REZERVARE
+Clientul ofera angajatului numarul rezervarii. Angajatul il introduce in sistem
+
+2. AFISEAZA ACORD DE INCHIRIERE
+Sistemul cauta si afiseaza acordul de inchiriere aferent rezervarii
+
+3. CONFIRMA ACORD
+Clientul confirma acordul si detaliile acestuia
+
+4. IMPRIMA ACORDUL PENTRU SEMNARE
+Sistemul imprima acordul. Clientul il semneaza
+
+5. AFISEAZA OPTIUNI DE ASIGURARE
+Sistemul afiseaza optiunile de asigurare disponibile. Clientul alege una
+
+6. INTRODUCE ASIGURAREA IN SISTEM
+Angajatul introduce in sistem optiunea de asigurare aleasa de client
+
+7. IMPRIMA POLITA DE ASIGURARE
+Sistemul imprima polita pentru a fi semnata si atasata la acord
+
+------------------------------------------------------------------------
+
+Caz de utilizare: Verificare disponibilitate
+Detaliile uc extinse
+
+1. PRIMESTE CERERE VERIFICARE
+Trimite o cerere pentru verificarea disponibilitatii unui vehicul
+
+2. CAUTA INTERVAL DISPONIBIL
+sistemul cauta in baza de date daca exista vehicule disponibile de tipul si pentru perioada ceruta
+
+3. REZERVA VEHICUL
+Daca vehiculul este disponibil, acesta este rezervat temporar pentru perioada respectiva
+
+4. AFISEAZA REZULTATUL
+Sistemul afiseaza utilizatorului rezultatul: disponibil sau indisponibil
+
+------------------------------------------------------------------------
+
+Caz de utilizare: RETURNARE VEHICUL
+Detaliile UC extinse
+
+1. INREGISTREAZA DATELE
+Clientul comunica angajatului kilometrajul si nivelul combustibilului. Angajatul introduce aceste date in sistem
+
+2. CALCULEAZA COSTURI FINALE
+Sistemul calculeaza costul total al inchirierii
+
+3. AFISEAZA COSTUL FINAL
+Sistemul afiseaza contul final clientului
+
+4. REALIZEAZA PLATA
+Clientul achita suma datorata. Angajatul inregistreaza plata in sistem
